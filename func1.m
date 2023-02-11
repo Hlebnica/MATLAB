@@ -1,0 +1,2 @@
+function y = func1(x)
+y = x^2 - 3;
