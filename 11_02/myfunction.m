@@ -1,2 +1,2 @@
 function y = myfunction(x)
-y = x^2 - log(x) - 4;
+y = x^2 + log(x) - 4;
