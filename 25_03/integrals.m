@@ -5,7 +5,7 @@ n = length(sx);
 
 func = @(x) x.^2;
 
-K = @(x, s) (1/10 + x.^2 + s.^2);
+K = @(x, s) (1/(10 + x.^2 + s.^2));
 
 sY = zeros(1,n); 
 ssY = zeros(1,n); 
